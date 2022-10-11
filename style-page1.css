@@ -1,0 +1,311 @@
+@charset "UTF-8";
+
+*{ padding: 0; margin: 0;   box-sizing: border-box;}
+
+html{
+    min-width: 360px;
+    scroll-behavior: smooth;
+}
+
+#btn-check{ display: none;}
+
+#btn-check:checked ~ nav{
+    left: 0;
+}
+
+#burguer{
+    position: absolute;
+    z-index: 10;
+    left: 1em;
+    top: 2em;
+    cursor: pointer;
+    display: none;
+}
+#letterX{
+    position: absolute;
+    z-index: 10;
+    left: 1em;
+    top: 2em;
+    cursor: pointer;
+    opacity: .6;
+    display: none;
+}
+
+header{
+    background-image: linear-gradient(to top, rgba(13, 49, 49, 0.829), teal, rgba(0, 128, 128, 0.801));
+    width: 100vw;
+    height: 150px;
+    box-shadow: 0 2px 3px #222;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    position: relative;
+}
+header h1{
+    font-size: 3em;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-variant-caps: all-petite-caps;
+    color: rgba(34, 34, 34, 0.87);
+    line-height: 150px;
+    display: block;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(245, 222, 179, 0.685);
+}
+header img{
+    position: absolute;
+    right: 5% ;
+    top: 30%;
+    cursor: pointer;
+    background-color: rgba(34, 34, 34, 0.61);
+    padding: 10px;
+    border-radius: 50%;
+}
+
+/*  NAV */
+
+
+nav {
+    margin-top: 5px;
+    background-image: linear-gradient(to right, rgba(34, 34, 34, 0.836), rgba(34, 34, 34, 0.849), rgba(34, 34, 34, 0.801));
+    width: 100%;
+    height: 40px;
+    box-shadow: 0px 2px 2px #222;    
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(247, 206, 131);
+    font: 700 15px verdana;
+    display: block;
+    padding: 11px;
+    border-right: 1px solid rgba(255, 255, 255, 0.301);
+    text-shadow: 1px 2px 5px #222;
+    transition: all .5s linear;
+
+}
+nav ul li a:hover{
+    background-color: white;
+    color: #222;
+    text-shadow: none;
+}
+
+
+
+/*  ARTICLE */
+
+
+
+
+
+main article{
+    position: relative;
+    padding: 1em;
+    background-color: rgba(240, 248, 255, 0.863);
+    box-shadow: 0 2px 4px #222;
+    column-count: 3;
+    column-fill: balance;
+}
+main article h1{
+    column-span: all;
+    background-image: linear-gradient(to right, wheat , transparent);
+    padding: .4em;
+    margin-top: .2em;
+    color: #222;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    font-size: 1.5em;
+    text-shadow: 1px 1px 1px rgba(34, 34, 34, 0.747);
+}
+main article #coruja{
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    margin: .7em;
+    float: left;
+    transition: all .5s linear;
+}
+main article #coruja:hover{
+    transform: rotate(360deg);
+    width: 120px;
+    height: 120px;
+}
+main article p{
+    padding: .4em;
+    text-align: justify;
+    font-size: 1.2em;
+    color: rgba(34, 34, 34, 0.747);
+    line-height: 1.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+
+/* SECTION */
+
+
+
+section{
+    padding: 1em;
+    margin-top: .4em;
+    display: flex;
+    flex-direction: column;
+}
+section div{
+    background-color: rgb(9, 119, 119);
+    margin-bottom: .4em;
+    box-shadow: 0 4px 4px #222;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 1em;
+}
+section h2{
+    background-color: rgba(245, 222, 179, 0.842);
+    color: rgba(34, 34, 34, 0.74);
+    padding: .3em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-variant-caps: all-petite-caps;
+    font-weight: 700;
+    font-size: 1.5em;
+    border-right: 9px solid goldenrod;
+    text-shadow: 1px 1px 1px rgba(34, 34, 34, 0.603);
+}
+section h3{
+    background-color: rgba(245, 222, 179, 0.842);
+    
+    color: rgba(34, 34, 34, 0.74);
+    padding: .3em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-variant-caps: all-petite-caps;
+    font-weight: 700;
+    font-size: 1.5em;
+    border-left: 9px solid goldenrod;
+    direction: rtl;
+    font-variant-caps: all-petite-caps;
+    text-shadow: 1px 1px 1px rgba(34, 34, 34, 0.603);
+}
+section p{
+    color: rgba(255, 255, 255, 0.829);
+    padding: .4em;
+    columns: 3;
+    column-fill: balance;
+    gap: 1.5em;
+    text-align: justify;
+    text-shadow: 1px 1px 1px #222;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1.5em;
+    font-size: 1.2em;
+}
+
+
+#video{ 
+    background-color: rgb(22, 62, 95);
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+}
+
+#video iframe{
+    width: 90vw;
+    height: 75vh;
+}
+
+
+/*  ASIDE  */
+
+
+aside{
+    padding: 1em;
+    margin-top: .4em;
+    background-color:cadetblue;
+    color: #222;
+    box-shadow: 0 2px 4px #222;
+}
+aside h4{
+    background-color: lightblue;
+    padding: .4em;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    text-align: center;
+    font: 700 1.2em Courier ;
+    text-shadow: 1px 1px 1px rgba(34, 34, 34, 0.637);
+    box-shadow: 2px 2px 2px #222;
+    border-radius: 20px;
+}
+aside p{
+    padding: .4em;
+    columns: 3;
+    gap: 1.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.5em;
+    text-align: justify;
+    font-size: 1.2em;
+}
+
+
+
+
+
+
+
+footer{
+    margin-top: .4em;
+    background-image: linear-gradient(to top, rgba(13, 49, 49, 0.829), teal, rgba(0, 128, 128, 0.801));
+    width: 100%;
+    height: auto;
+}
+footer h5{
+    text-align: center;
+    padding: .5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 1px 1px 1px rgba(34, 34, 34, 0.164);
+    font-size: 1em;
+}
+footer #txt{
+    padding: 1em;
+    margin: 1em;
+    text-align: justify;
+    text-align-last: center;
+    font: 400 1em arial;
+    color: rgba(34, 34, 34, 0.808);
+}
+footer ul{
+    display: flex;
+    justify-content: center;
+    gap: 2.5em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+footer ul li{
+    list-style: none;
+}
+footer ul li a{
+    transition: all .3s linear;
+}
+footer #creator{
+   text-align: center;
+   margin-top: 2em;
+   margin-bottom: 2em;
+}
+footer #creator a{
+    text-decoration: none;
+    color: wheat;
+    font-style: oblique;
+}
+footer #creator a:hover{
+    text-decoration: underline;
+    color: #fff;
+}
+footer #arrow{
+    text-align: center;
+    cursor: pointer;
+}

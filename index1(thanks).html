@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="image/icon-coruja.png" type="image/x-icon">
+    <link rel="stylesheet" href="style-page1.css">
+    <link rel="stylesheet" href="style-pageMediaQuery.css">
+    <script src="script.js"  defer ></script>
+
+
+    <style>
+        body {
+            background-color: rgb(9, 119, 119);
+        }
+
+       div{
+        background-color: white;
+        margin: 25px auto;
+        width: 80vw;
+        height: 90vh;
+        border-bottom-left-radius: 40px;
+        border-top-right-radius: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 3px 3px 4px #222;
+       } 
+       
+       div p{
+            text-align: center;
+            font-size: 3em;
+            font-weight: 700;
+            font-family: cursive;
+            color: rgba(34, 34, 34, 0.774);
+            text-shadow: 2px 2px 2px rgba(34, 34, 34, 0.404);
+       }
+
+       div a{
+        margin-top: 1em;
+        transition: all .6s linear;
+       }
+
+       div a:hover{
+        
+         transform: rotate(360deg);
+
+       }
+      
+
+       @media screen  and (max-width: 800px){
+            div p{
+                font-size: 2.5em;
+            }
+       }
+
+       @media screen  and (max-width: 600px){
+            div p{
+                font-size: 2em;
+            }
+            div img{
+                width: 40px;
+                height: 40px;
+            }
+       }
+
+       @media screen and (max-width: 575px) {
+        
+        div p{
+            font-size: 1.3em;
+        }
+
+       }
+
+
+
+
+    </style>
+
+    <title>Thanks Page</title>
+</head>
+
+
+<body>
+    
+    
+
+<div>
+
+    <p>
+        Thanks for the contact!
+    </p>
+
+    <a href="index.html" target="_self" method="get" ><img src="image/back arrow.png" alt="back"  width="50" height="50" ></a>
+
+
+</div>
+
+
+
+
+</body>
+</html>
+
+

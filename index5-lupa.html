@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="image/icon-coruja.png" type="image/x-icon">
+    <script src="script.js"  defer ></script>
+
+    <title>Lupa</title>
+
+    <style>
+        body{
+             background-color: rgb(9, 119, 119);
+        }
+        form{
+            text-align: center;
+            margin-top: 100px;
+            
+        }
+        input{
+            border-radius: 30px;
+            width: 250px;
+            height: 60px;
+            border: 4px solid rgb(41, 37, 26);
+            font-style: oblique;
+            padding-left: 10px;
+        }
+        input:focus{
+            outline:none;
+        }
+       
+    </style>
+</head>
+<body>
+    
+    <form action="index1(thanks).html" target="_self"  autocomplete="off"  >
+
+        <input type="search" name="search" id="search"   required >
+
+
+    </form>
+
+
+
+<script>
+
+
+let inputSearch = document.getElementById('search')
+
+inputSearch.addEventListener('keydown', function(event){
+
+    if( event.key === 'Enter' &&  inputSearch.value.length == 0 ){
+
+        alert('Fill in the blanks!')
+
+    } 
+
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+
+
+</body>
+</html>

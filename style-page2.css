@@ -1,0 +1,1677 @@
+
+main{
+    width: 100vw;
+    height: auto;
+    padding-top: 1rem; 
+    background-color: rgb(15, 14, 14);
+}
+
+main h1 {
+    font-family:  monospace;
+    font-variant-caps: small-caps;
+    font-weight: 700;
+    font-size: 2.5em;
+    padding: 1rem;
+    color: rgba(34, 34, 34, 0.781);
+    text-shadow: 1px 1px 1px rgba(34, 34, 34, 0.726) ;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 30px;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+main section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: .8em;
+    flex-wrap: wrap;
+
+}
+
+
+
+
+/*  CONTAINER 1  */
+
+
+
+section .container1{
+    background-color: cornsilk;
+    width: 300px;
+    height: auto;
+    border-radius: 1rem;
+}
+.slider1{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 1rem;
+}
+.slider1 .carousel1{
+    width: 400%;
+    height: 300px;
+    display: flex;
+}
+.carousel1 .foto1{
+    width: 25%;
+    height: 300px;
+    
+}
+.carousel1 img{
+    width: 300px;
+    height: 300px;
+}
+.carousel1 .first1{
+    transition: all .5s linear;
+}
+.carousel1 input{ display: none;}
+
+.slider1 .navegation-bar1{
+    position: absolute;
+    display: flex;
+    background-color: transparent;
+    bottom: -4%;
+    left: 32%;
+}
+.slider1 .navegation-bar1 .btn-radio1{
+    cursor: pointer;
+    outline: 2px solid rgba(255, 255, 255, 0.637);
+    border-radius: 50%;
+    padding: 6px;
+}
+
+.slider1 .navegation-bar1  .btn-radio1:not(:last-child){
+    margin-right: 1em;
+}
+.slider1 .navegation-bar1 .btn-radio1:hover{
+    background-color: rgba(255, 255, 255, 0.733);
+    outline-offset: 2px;
+}
+
+.carousel1 #radio1-1:checked ~ .first1{
+    left: 0;
+}
+.carousel1 #radio1-2:checked ~ .first1{
+    margin-left: -25%;
+}
+.carousel1 #radio1-3:checked ~ .first1{
+    margin-left: -50%;
+}
+.carousel1 #radio1-4:checked ~ .first1{
+    margin-left: -75%;
+}
+
+.carousel1 .customization-click1{
+    position: absolute;
+    display: flex;
+    background-color: transparent;
+    bottom: -9.4%;
+    left: 32%;
+}
+
+.carousel1 .customization-click1 .custom-btn1{
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 50%;
+    padding: 6px;
+}
+.carousel1 .customization-click1  .custom-btn1:not(:last-child){
+    margin-right: 1em;
+}
+
+.slider1 .carousel1 #radio1-1:checked ~ .customization-click1 #custom-btn1-1{
+    background-color: #fff;
+}
+
+.slider1 .carousel1 #radio1-2:checked ~ .customization-click1 #custom-btn1-2{
+    background-color: #fff;
+}
+.slider1 .carousel1 #radio1-3:checked ~ .customization-click1 #custom-btn1-3{
+    background-color: #fff;
+}
+
+.slider1 .carousel1 #radio1-4:checked ~ .customization-click1 #custom-btn1-4{
+    background-color: #fff;
+}
+
+
+
+.container1 .product1{
+    width: 300px;
+    background-color: azure;
+    margin: 0;
+}
+
+.container1 #name1{
+    text-align: center;
+    background-color: rgba(11, 100, 71, 0.767);
+    padding: .5em;
+    color:rgba(255, 255, 255, 0.829);
+    font: 700 1em arial;
+    text-shadow: 2px 2px 2px rgba(34, 34, 34, 0.699);
+}
+
+.container1 .product1 .price1{
+    background-color: rgba(112, 128, 144, 0.171);
+    color: #222;
+    padding: 5px;
+}
+
+.container1 .product1 #discription1{
+    color: rgba(34, 34, 34, 0.712);
+    text-align: justify;
+    column-count: 1;
+    text-shadow: none;
+    font: 500 .9em arial;
+    padding: 1em;   
+}
+
+
+
+/*  CONTAINER 2  */
+
+
+
+section .container2{
+    background-color: cornsilk;
+    width: 300px;
+    height: auto;
+   border-radius: 1rem;
+}
+.slider2{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 1rem;
+}
+.slider2 .carousel2{
+    width: 400%;
+    height: 300px;
+    display: flex;
+}
+.carousel2 .foto2{
+    width: 25%;
+    height: 300px;
+    
+}
+.carousel2 img{
+    width: 300px;
+    height: 300px;
+}
+.carousel2 .first2{
+    transition: all .5s linear;
+}
+.carousel2 input{ display: none;}
+
+.slider2 .navegation-bar2{
+    position: absolute;
+    display: flex;
+    background-color: transparent;
+    bottom: -4%;
+    left: 32%;
+}
+.slider2 .navegation-bar2 .btn-radio2{
+    cursor: pointer;
+    outline: 2px solid rgba(255, 255, 255, 0.637);
+    border-radius: 50%;
+    padding: 6px;
+}
+
+.slider2 .navegation-bar2  .btn-radio2:not(:last-child){
+    margin-right: 1em;
+}
+.slider2 .navegation-bar2 .btn-radio2:hover{
+    background-color: rgba(255, 255, 255, 0.733);
+    outline-offset: 2px;
+}
+
+.carousel2 #radio2-1:checked ~ .first2{
+    left: 0;
+}
+.carousel2 #radio2-2:checked ~ .first2{
+    margin-left: -25%;
+}
+.carousel2 #radio2-3:checked ~ .first2{
+    margin-left: -50%;
+}
+.carousel2 #radio2-4:checked ~ .first2{
+    margin-left: -75%;
+}
+
+.carousel2 .customization-click2{
+    position: absolute;
+    display: flex;
+    background-color: transparent;
+    bottom: -9.4%;
+    left: 32%;
+}
+
+.carousel2 .customization-click2 .custom-btn2{
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 50%;
+    padding: 6px;
+}
+.carousel2 .customization-click2  .custom-btn2:not(:last-child){
+    margin-right: 1em;
+}
+
+.slider2 .carousel2 #radio2-1:checked ~ .customization-click2 #custom-btn2-1{
+    background-color: #fff;
+}
+
+.slider2 .carousel2 #radio2-2:checked ~ .customization-click2 #custom-btn2-2{
+    background-color: #fff;
+}
+.slider2 .carousel2 #radio2-3:checked ~ .customization-click2 #custom-btn2-3{
+    background-color: #fff;
+}
+
+.slider2 .carousel2 #radio2-4:checked ~ .customization-click2 #custom-btn2-4{
+    background-color: #fff;
+}
+
+
+.container2 .product2{
+    width: 300px;
+    background-color: azure;
+    margin: 0;
+}
+
+.container2 #name2{
+    text-align: center;
+    background-color: rgba(11, 100, 71, 0.767);
+    padding: .5em;
+    color:rgba(255, 255, 255, 0.829);
+    font: 700 1em arial;
+    text-shadow: 2px 2px 2px rgba(34, 34, 34, 0.699);
+}
+
+.container2 .product2 .price2{
+    background-color: rgba(112, 128, 144, 0.171);
+    color: #222;
+    padding: 5px;
+}
+
+.container2 .product2 #discription2{
+    color: rgba(34, 34, 34, 0.712);
+    text-align: justify;
+    column-count: 1;
+    text-shadow: none;
+    font: 500 .9em arial;
+    padding: 1em;   
+}
+
+
+/*  CONTAINER 3  */
+
+
+
+section .container3{
+    background-color: cornsilk;
+    width: 300px;
+    height: auto;
+    border-radius: 1rem;
+}
+.slider3{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 1rem;
+}
+.slider3 .carousel3{
+    width: 400%;
+    height: 300px;
+    display: flex;
+}
+.carousel3 .foto3{
+    width: 25%;
+    height: 300px;
+    
+}
+.carousel3 img{
+    width: 300px;
+    height: 300px;
+}
+.carousel3 .first3{
+    transition: all .5s linear;
+}
+.carousel3 input{ display: none;}
+
+.slider3 .navegation-bar3{
+    position: absolute;
+    display: flex;
+    background-color: transparent;
+    bottom: -4%;
+    left: 32%;
+}
+.slider3 .navegation-bar3 .btn-radio3{
+    cursor: pointer;
+    outline: 2px solid rgba(255, 255, 255, 0.637);
+    border-radius: 50%;
+    padding: 6px;
+}
+
+.slider3 .navegation-bar3  .btn-radio3:not(:last-child){
+    margin-right: 1em;
+}
+.slider3 .navegation-bar3 .btn-radio3:hover{
+    background-color: rgba(255, 255, 255, 0.733);
+    outline-offset: 2px;
+}
+
+.carousel3 #radio3-1:checked ~ .first3{
+    left: 0;
+}
+.carousel3 #radio3-2:checked ~ .first3{
+    margin-left: -25%;
+}
+.carousel3 #radio3-3:checked ~ .first3{
+    margin-left: -50%;
+}
+.carousel3 #radio3-4:checked ~ .first3{
+    margin-left: -75%;
+}
+
+.carousel3 .customization-click3{
+    position: absolute;
+    display: flex;
+    background-color: transparent;
+    bottom: -9.4%;
+    left: 32%;
+}
+
+.carousel3 .customization-click3 .custom-btn3{
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 50%;
+    padding: 6px;
+}
+.carousel3 .customization-click3  .custom-btn3:not(:last-child){
+    margin-right: 1em;
+}
+
+.slider3 .carousel3 #radio3-1:checked ~ .customization-click3 #custom-btn3-1{
+    background-color: #fff;
+}
+
+.slider3 .carousel3 #radio3-2:checked ~ .customization-click3 #custom-btn3-2{
+    background-color: #fff;
+}
+.slider3 .carousel3 #radio3-3:checked ~ .customization-click3 #custom-btn3-3{
+    background-color: #fff;
+}
+
+.slider3 .carousel3 #radio3-4:checked ~ .customization-click3 #custom-btn3-4{
+    background-color: #fff;
+}
+
+
+.container3 .product3{
+    width: 300px;
+    background-color: azure;
+    margin: 0;
+}
+
+.container3 #name3{
+    text-align: center;
+    background-color: rgba(11, 100, 71, 0.767);
+    padding: .5em;
+    color:rgba(255, 255, 255, 0.829);
+    font: 700 1em arial;
+    text-shadow: 2px 2px 2px rgba(34, 34, 34, 0.699);
+}
+
+.container3 .product3 .price3{
+    background-color: rgba(112, 128, 144, 0.171);
+    color: #222;
+    padding: 5px;
+}
+
+.container3 .product3 #discription3{
+    color: rgba(34, 34, 34, 0.712);
+    text-align: justify;
+    column-count: 1;
+    text-shadow: none;
+    font: 500 .9em arial;
+    padding: 1em;   
+}
+
+
+
+
+/*  CONTAINER 4  */
+
+
+
+section .container4{
+    background-color: cornsilk;
+    width: 300px;
+    height: auto;
+    border-radius: 1rem;
+}
+.slider4{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 1rem;
+}
+.slider4 .carousel4{
+    width: 400%;
+    height: 300px;
+    display: flex;
+}
+.carousel4 .foto4{
+    width: 25%;
+    height: 300px;
+    
+}
+.carousel4 img{
+    width: 300px;
+    height: 300px;
+}
+.carousel4 .first4{
+    transition: all .5s linear;
+}
+.carousel4 input{ display: none;}
+
+.slider4 .navegation-bar4{
+    position: absolute;
+    display: flex;
+    background-color: transparent;
+    bottom: -4%;
+    left: 32%;
+}
+.slider4 .navegation-bar4 .btn-radio4{
+    cursor: pointer;
+    outline: 2px solid rgba(255, 255, 255, 0.637);
+    border-radius: 50%;
+    padding: 6px;
+}
+
+.slider4 .navegation-bar4  .btn-radio4:not(:last-child){
+    margin-right: 1em;
+}
+.slider4 .navegation-bar4 .btn-radio4:hover{
+    background-color: rgba(255, 255, 255, 0.733);
+    outline-offset: 2px;
+}
+
+.carousel4 #radio4-1:checked ~ .first4{
+    left: 0;
+}
+.carousel4 #radio4-2:checked ~ .first4{
+    margin-left: -25%;
+}
+.carousel4 #radio4-3:checked ~ .first4{
+    margin-left: -50%;
+}
+.carousel4 #radio4-4:checked ~ .first4{
+    margin-left: -75%;
+}
+
+.carousel4 .customization-click4{
+    position: absolute;
+    display: flex;
+    background-color: transparent;
+    bottom: -9.4%;
+    left: 32%;
+}
+
+.carousel4 .customization-click4 .custom-btn4{
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 50%;
+    padding: 6px;
+}
+.carousel4 .customization-click4  .custom-btn4:not(:last-child){
+    margin-right: 1em;
+}
+
+.slider4 .carousel4 #radio4-1:checked ~ .customization-click4 #custom-btn4-1{
+    background-color: #fff;
+}
+
+.slider4 .carousel4 #radio4-2:checked ~ .customization-click4 #custom-btn4-2{
+    background-color: #fff;
+}
+.slider4 .carousel4 #radio4-3:checked ~ .customization-click4 #custom-btn4-3{
+    background-color: #fff;
+}
+
+.slider4 .carousel4 #radio4-4:checked ~ .customization-click4 #custom-btn4-4{
+    background-color: #fff;
+}
+
+
+.container4 .product4{
+    width: 300px;
+    background-color: azure;
+    margin: 0;
+}
+
+.container4 #name4{
+    text-align: center;
+    background-color: rgba(11, 100, 71, 0.767);
+    padding: .5em;
+    color:rgba(255, 255, 255, 0.829);
+    font: 700 1em arial;
+    text-shadow: 2px 2px 2px rgba(34, 34, 34, 0.699);
+}
+
+.container4 .product4 .price4{
+    background-color: rgba(112, 128, 144, 0.171);
+    color: #222;
+    padding: 5px;
+}
+
+.container4 .product4 #discription4{
+    color: rgba(34, 34, 34, 0.712);
+    text-align: justify;
+    column-count: 1;
+    text-shadow: none;
+    font: 500 .9em arial;
+    padding: 1em;   
+}
+
+
+
+
+
+/*  CONTAINER 5  */
+
+
+
+section .container5{
+    background-color: cornsilk;
+    width: 300px;
+    height: auto;
+    border-radius: 1rem;
+}
+.slider5{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 1rem;
+}
+.slider5 .carousel5{
+    width: 400%;
+    height: 300px;
+    display: flex;
+}
+.carousel5 .foto5{
+    width: 25%;
+    height: 300px;
+}
+.carousel5 img{
+    width: 300px;
+    height: 300px;
+}
+.carousel5 .first5{
+    transition: all .5s linear;
+}
+.carousel5 input{ display: none;}
+
+.slider5 .navegation-bar5{
+    position: absolute;
+    display: flex;
+    background-color: transparent;
+    bottom: -4%;
+    left: 32%;
+}
+.slider5 .navegation-bar5 .btn-radio5{
+    cursor: pointer;
+    outline: 2px solid rgba(255, 255, 255, 0.637);
+    border-radius: 50%;
+    padding: 6px;
+}
+
+.slider5 .navegation-bar5  .btn-radio5:not(:last-child){
+    margin-right: 1em;
+}
+.slider5 .navegation-bar5 .btn-radio5:hover{
+    background-color: rgba(255, 255, 255, 0.733);
+    outline-offset: 2px;
+}
+
+.carousel5 #radio5-1:checked ~ .first5{
+    left: 0;
+}
+.carousel5 #radio5-2:checked ~ .first5{
+    margin-left: -25%;
+}
+.carousel5 #radio5-3:checked ~ .first5{
+    margin-left: -50%;
+}
+.carousel5 #radio5-4:checked ~ .first5{
+    margin-left: -75%;
+}
+
+.carousel5 .customization-click5{
+    position: absolute;
+    display: flex;
+    background-color: transparent;
+    bottom: -9.4%;
+    left: 32%;
+}
+
+.carousel5 .customization-click5 .custom-btn5{
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 50%;
+    padding: 6px;
+}
+.carousel5 .customization-click5  .custom-btn5:not(:last-child){
+    margin-right: 1em;
+}
+
+.slider5 .carousel5 #radio5-1:checked ~ .customization-click5 #custom-btn5-1{
+    background-color: #fff;
+}
+
+.slider5 .carousel5 #radio5-2:checked ~ .customization-click5 #custom-btn5-2{
+    background-color: #fff;
+}
+.slider5 .carousel5 #radio5-3:checked ~ .customization-click5 #custom-btn5-3{
+    background-color: #fff;
+}
+
+.slider5 .carousel5 #radio5-4:checked ~ .customization-click5 #custom-btn5-4{
+    background-color: #fff;
+}
+
+
+.container5 .product5{
+    width: 300px;
+    background-color: azure;
+    margin: 0;
+}
+
+.container5 #name5{
+    text-align: center;
+    background-color: rgba(11, 100, 71, 0.767);
+    padding: .5em;
+    color:rgba(255, 255, 255, 0.829);
+    font: 700 1em arial;
+    text-shadow: 2px 2px 2px rgba(34, 34, 34, 0.699);
+}
+
+.container5 .product5 .price5{
+    background-color: rgba(112, 128, 144, 0.171);
+    color: #222;
+    padding: 5px;
+}
+
+.container5 .product5 #discription5{
+    color: rgba(34, 34, 34, 0.712);
+    text-align: justify;
+    column-count: 1;
+    text-shadow: none;
+    font: 500 .9em arial;
+    padding: 1em;   
+}
+
+
+
+
+/*  CONTAINER 6  */
+
+
+
+section .container6{
+    background-color: cornsilk;
+    width: 300px;
+    height: auto;
+    border-radius: 1rem;
+}
+.slider6{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 1rem;
+}
+.slider6 .carousel6{
+    width: 400%;
+    height: 300px;
+    display: flex;
+}
+.carousel6 .foto6{
+    width: 25%;
+    height: 300px;
+    
+}
+.carousel6 img{
+    width: 300px;
+    height: 300px;
+}
+.carousel6 .first6{
+    transition: all .5s linear;
+}
+.carousel6 input{ display: none;}
+
+.slider6 .navegation-bar6{
+    position: absolute;
+    display: flex;
+    background-color: transparent;
+    bottom: -4%;
+    left: 32%;
+}
+.slider6 .navegation-bar6 .btn-radio6{
+    cursor: pointer;
+    outline: 2px solid rgba(255, 255, 255, 0.637);
+    border-radius: 50%;
+    padding: 6px;
+}
+
+.slider6 .navegation-bar6  .btn-radio6:not(:last-child){
+    margin-right: 1em;
+}
+.slider6 .navegation-bar6 .btn-radio6:hover{
+    background-color: rgba(255, 255, 255, 0.733);
+    outline-offset: 2px;
+}
+
+.carousel6 #radio6-1:checked ~ .first6{
+    left: 0;
+}
+.carousel6 #radio6-2:checked ~ .first6{
+    margin-left: -25%;
+}
+.carousel6 #radio6-3:checked ~ .first6{
+    margin-left: -50%;
+}
+.carousel6 #radio6-4:checked ~ .first6{
+    margin-left: -75%;
+}
+
+.carousel6 .customization-click6{
+    position: absolute;
+    display: flex;
+    background-color: transparent;
+    bottom: -9.4%;
+    left: 32%;
+}
+
+.carousel6 .customization-click6 .custom-btn6{
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 50%;
+    padding: 6px;
+}
+.carousel6 .customization-click6  .custom-btn6:not(:last-child){
+    margin-right: 1em;
+}
+
+
+
+.slider6 .carousel6 #radio6-1:checked ~ .customization-click6 #custom-btn6-1{
+    background-color: #fff;
+}
+.slider6 .carousel6 #radio6-2:checked ~ .customization-click6 #custom-btn6-2{
+    background-color: #fff;
+}
+.slider6 .carousel6 #radio6-3:checked ~ .customization-click6 #custom-btn6-3{
+    background-color: #fff;
+}
+.slider6 .carousel6 #radio6-4:checked ~ .customization-click6 #custom-btn6-4{
+    background-color: #fff;
+}
+
+
+.container6 .product6{
+    width: 300px;
+    background-color: azure;
+    margin: 0;
+}
+
+.container6 #name6{
+    text-align: center;
+    background-color: rgba(11, 100, 71, 0.767);
+    padding: .5em;
+    color:rgba(255, 255, 255, 0.829);
+    font: 700 1em arial;
+    text-shadow: 2px 2px 2px rgba(34, 34, 34, 0.699);
+}
+
+.container6 .product6 .price6{
+    background-color: rgba(112, 128, 144, 0.171);
+    color: #222;
+    padding: 5px;
+}
+
+.container6 .product6 #discription6{
+    color: rgba(34, 34, 34, 0.712);
+    text-align: justify;
+    column-count: 1;
+    text-shadow: none;
+    font: 500 .9em arial;
+    padding: 1em;   
+}
+
+
+
+/*  CONTAINER 7  */
+
+
+
+section .container7{
+    background-color: cornsilk;
+    width: 300px;
+    height: auto;
+    border-radius: 1rem;
+}
+.slider7{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 1rem;
+}
+.slider7 .carousel7{
+    width: 400%;
+    height: 300px;
+    display: flex;
+}
+.carousel7 .foto7{
+    width: 25%;
+    height: 300px;
+    
+}
+.carousel7 img{
+    width: 300px;
+    height: 300px;
+}
+.carousel7 .first7{
+    transition: all .5s linear;
+}
+.carousel7 input{ display: none;}
+
+.slider7 .navegation-bar7{
+    position: absolute;
+    display: flex;
+    background-color: transparent;
+    bottom: -4%;
+    left: 32%;
+}
+.slider7 .navegation-bar7 .btn-radio7{
+    cursor: pointer;
+    outline: 2px solid rgba(255, 255, 255, 0.637);
+    border-radius: 50%;
+    padding: 6px;
+}
+
+.slider7 .navegation-bar7  .btn-radio7:not(:last-child){
+    margin-right: 1em;
+}
+.slider7 .navegation-bar7 .btn-radio7:hover{
+    background-color: rgba(255, 255, 255, 0.733);
+    outline-offset: 2px;
+}
+
+.carousel7 #radio7-1:checked ~ .first7{
+    left: 0;
+}
+.carousel7 #radio7-2:checked ~ .first7{
+    margin-left: -25%;
+}
+.carousel7 #radio7-3:checked ~ .first7{
+    margin-left: -50%;
+}
+.carousel7 #radio7-4:checked ~ .first7{
+    margin-left: -75%;
+}
+
+.carousel7 .customization-click7{
+    position: absolute;
+    display: flex;
+    background-color: transparent;
+    bottom: -9.4%;
+    left: 32%;
+}
+
+.carousel7 .customization-click7 .custom-btn7{
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 50%;
+    padding: 6px;
+}
+.carousel7 .customization-click7  .custom-btn7:not(:last-child){
+    margin-right: 1em;
+}
+
+.slider7 .carousel7 #radio7-1:checked ~ .customization-click7 #custom-btn7-1{
+    background-color: #fff;
+}
+
+.slider7 .carousel7 #radio7-2:checked ~ .customization-click7 #custom-btn7-2{
+    background-color: #fff;
+}
+.slider7 .carousel7 #radio7-3:checked ~ .customization-click7 #custom-btn7-3{
+    background-color: #fff;
+}
+
+.slider7 .carousel7 #radio7-4:checked ~ .customization-click7 #custom-btn7-4{
+    background-color: #fff;
+}
+
+
+.container7 .product7{
+    width: 300px;
+    background-color: azure;
+    margin: 0;
+}
+
+.container7 #name7{
+    text-align: center;
+    background-color: rgba(11, 100, 71, 0.767);
+    padding: .5em;
+    color:rgba(255, 255, 255, 0.829);
+    font: 700 1em arial;
+    text-shadow: 2px 2px 2px rgba(34, 34, 34, 0.699);
+}
+
+.container7 .product7 .price7{
+    background-color: rgba(112, 128, 144, 0.171);
+    color: #222;
+    padding: 5px;
+}
+
+.container7 .product7 #discription7{
+    color: rgba(34, 34, 34, 0.712);
+    text-align: justify;
+    column-count: 1;
+    text-shadow: none;
+    font: 500 .9em arial;
+    padding: 1em;   
+}
+
+
+
+/*  CONTAINER 8  */
+
+
+
+section .container8{
+    background-color: cornsilk;
+    width: 300px;
+    height: auto;
+    border-radius: 1rem;
+}
+.slider8{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 1rem;
+}
+.slider8 .carousel8{
+    width: 400%;
+    height: 300px;
+    display: flex;
+}
+.carousel8 .foto8{
+    width: 25%;
+    height: 300px;
+    
+}
+.carousel8 img{
+    width: 300px;
+    height: 300px;
+}
+.carousel8 .first8{
+    transition: all .5s linear;
+}
+.carousel8 input{ display: none;}
+
+.slider8 .navegation-bar8{
+    position: absolute;
+    display: flex;
+    background-color: transparent;
+    bottom: -4%;
+    left: 32%;
+}
+.slider8 .navegation-bar8 .btn-radio8{
+    cursor: pointer;
+    outline: 2px solid rgba(255, 255, 255, 0.637);
+    border-radius: 50%;
+    padding: 6px;
+}
+
+.slider8 .navegation-bar8  .btn-radio8:not(:last-child){
+    margin-right: 1em;
+}
+.slider8 .navegation-bar8 .btn-radio8:hover{
+    background-color: rgba(255, 255, 255, 0.733);
+    outline-offset: 2px;
+}
+
+.carousel8 #radio8-1:checked ~ .first8{
+    left: 0;
+}
+.carousel8 #radio8-2:checked ~ .first8{
+    margin-left: -25%;
+}
+.carousel8 #radio8-3:checked ~ .first8{
+    margin-left: -50%;
+}
+.carousel8 #radio8-4:checked ~ .first8{
+    margin-left: -75%;
+}
+
+.carousel8 .customization-click8{
+    position: absolute;
+    display: flex;
+    background-color: transparent;
+    bottom: -9.4%;
+    left: 32%;
+}
+
+.carousel8 .customization-click8 .custom-btn8{
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 50%;
+    padding: 6px;
+}
+.carousel8 .customization-click8  .custom-btn8:not(:last-child){
+    margin-right: 1em;
+}
+
+.slider8 .carousel8 #radio8-1:checked ~ .customization-click8 #custom-btn8-1{
+    background-color: #fff;
+}
+.slider8 .carousel8 #radio8-2:checked ~ .customization-click8 #custom-btn8-2{
+    background-color: #fff;
+}
+.slider8 .carousel8 #radio8-3:checked ~ .customization-click8 #custom-btn8-3{
+    background-color: #fff;
+}
+.slider8 .carousel8 #radio8-4:checked ~ .customization-click8 #custom-btn8-4{
+    background-color: #fff;
+}
+
+
+.container8 .product8{
+    width: 300px;
+    background-color: azure;
+    margin: 0;
+}
+
+.container8 #name8{
+    text-align: center;
+    background-color: rgba(11, 100, 71, 0.767);
+    padding: .5em;
+    color:rgba(255, 255, 255, 0.829);
+    font: 700 1em arial;
+    text-shadow: 2px 2px 2px rgba(34, 34, 34, 0.699);
+}
+
+.container8 .product8 .price8{
+    background-color: rgba(112, 128, 144, 0.171);
+    color: #222;
+    padding: 5px;
+}
+
+.container8 .product8 #discription8{
+    color: rgba(34, 34, 34, 0.712);
+    text-align: justify;
+    column-count: 1;
+    text-shadow: none;
+    font: 500 .9em arial;
+    padding: 1em;   
+}
+
+
+
+/*  container 9 */
+
+
+section .container9{
+    background-color: cornsilk;
+    width: 300px;
+    height: auto;
+    border-radius: 1rem;
+}
+.slider9{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 1rem;
+}
+.slider9 .carousel9{
+    width: 400%;
+    height: 300px;
+    display: flex;
+}
+.carousel9 .foto9{
+    width: 25%;
+    height: 300px;
+    
+}
+.carousel9 img{
+    width: 300px;
+    height: 300px;
+}
+.carousel9 .first9{
+    transition: all .5s linear;
+}
+.carousel9 input{ display: none;}
+
+.slider9 .navegation-bar9{
+    position: absolute;
+    display: flex;
+    background-color: transparent;
+    bottom: -4%;
+    left: 32%;
+}
+.slider9 .navegation-bar9 .btn-radio9{
+    cursor: pointer;
+    outline: 2px solid rgba(255, 255, 255, 0.637);
+    border-radius: 50%;
+    padding: 6px;
+}
+
+.slider9 .navegation-bar9  .btn-radio9:not(:last-child){
+    margin-right: 1em;
+}
+.slider9 .navegation-bar9 .btn-radio9:hover{
+    background-color: rgba(255, 255, 255, 0.733);
+    outline-offset: 2px;
+}
+
+.carousel9 #radio9-1:checked ~ .first9{
+    left: 0;
+}
+.carousel9 #radio9-2:checked ~ .first9{
+    margin-left: -25%;
+}
+.carousel9 #radio9-3:checked ~ .first9{
+    margin-left: -50%;
+}
+.carousel9 #radio9-4:checked ~ .first9{
+    margin-left: -75%;
+}
+
+.carousel9 .customization-click9{
+    position: absolute;
+    display: flex;
+    background-color: transparent;
+    bottom: -9.2%;
+    left: 32%;
+}
+
+.carousel9 .customization-click9 .custom-btn9{
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 50%;
+    padding: 6px;
+}
+.carousel9 .customization-click9  .custom-btn9:not(:last-child){
+    margin-right: 1em;
+}
+
+.slider9 .carousel9 #radio9-1:checked ~ .customization-click9 #custom-btn9-1{
+    background-color: #fff;
+}
+.slider9 .carousel9 #radio9-2:checked ~ .customization-click9 #custom-btn9-2{
+    background-color: #fff;
+}
+.slider9 .carousel9 #radio9-3:checked ~ .customization-click9 #custom-btn9-3{
+    background-color: #fff;
+}
+
+.slider9 .carousel9 #radio9-4:checked ~ .customization-click9 #custom-btn9-4{
+    background-color: #fff;
+}
+
+
+
+.container9 .product9{
+    width: 300px;
+    background-color: azure;
+    margin: 0;
+}
+
+.container9 #name9{
+    text-align: center;
+    background-color: rgba(11, 100, 71, 0.767);
+    padding: .5em;
+    color:rgba(255, 255, 255, 0.829);
+    font: 700 1em arial;
+    text-shadow: 2px 2px 2px rgba(34, 34, 34, 0.699);
+}
+
+.container9 .product9 .price9{
+    background-color: rgba(112, 128, 144, 0.171);
+    color: #222;
+    padding: 5px;
+}
+
+.container9 .product9 #discription9{
+    color: rgba(34, 34, 34, 0.712);
+    text-align: justify;
+    column-count: 1;
+    text-shadow: none;
+    font: 500 .9em arial;
+    padding: 1em;   
+}
+
+
+
+/*  CONTAINER 10  */
+
+
+
+section .container10{
+    background-color: cornsilk;
+    width: 300px;
+    height: auto;
+    border-radius: 1rem;
+}
+.slider10{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 1rem;
+}
+.slider10 .carousel10{
+    width: 400%;
+    height: 300px;
+    display: flex;
+}
+.carousel10 .foto10{
+    width: 25%;
+    height: 300px;
+    
+}
+.carousel10 img{
+    width: 300px;
+    height: 300px;
+}
+.carousel10 .first10{
+    transition: all .5s linear;
+}
+.carousel10 input{ display: none;}
+
+.slider10 .navegation-bar10{
+    position: absolute;
+    display: flex;
+    background-color: transparent;
+    bottom: -4%;
+    left: 32%;
+}
+.slider10 .navegation-bar10 .btn-radio10{
+    cursor: pointer;
+    outline: 2px solid rgba(255, 255, 255, 0.637);
+    border-radius: 50%;
+    padding: 6px;
+}
+
+.slider10 .navegation-bar10  .btn-radio10:not(:last-child){
+    margin-right: 1em;
+}
+.slider10 .navegation-bar10 .btn-radio10:hover{
+    background-color: rgba(255, 255, 255, 0.733);
+    outline-offset: 2px;
+}
+
+.carousel10 #radio10-1:checked ~ .first10{
+    left: 0;
+}
+.carousel10 #radio10-2:checked ~ .first10{
+    margin-left: -25%;
+}
+.carousel10 #radio10-3:checked ~ .first10{
+    margin-left: -50%;
+}
+.carousel10 #radio10-4:checked ~ .first10{
+    margin-left: -75%;
+}
+
+.carousel10 .customization-click10{
+    position: absolute;
+    display: flex;
+    background-color: transparent;
+    bottom: -9.2%;
+    left: 32%;
+}
+
+.carousel10 .customization-click10 .custom-btn10{
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 50%;
+    padding: 6px;
+}
+.carousel10 .customization-click10  .custom-btn10:not(:last-child){
+    margin-right: 1em;
+}
+
+.slider10 .carousel10 #radio10-1:checked ~ .customization-click10 #custom-btn10-1{
+    background-color: #fff;
+}
+
+.slider10 .carousel10 #radio10-2:checked ~ .customization-click10 #custom-btn10-2{
+    background-color: #fff;
+}
+.slider10 .carousel10 #radio10-3:checked ~ .customization-click10 #custom-btn10-3{
+    background-color: #fff;
+}
+
+.slider10 .carousel10 #radio10-4:checked ~ .customization-click10 #custom-btn10-4{
+    background-color: #fff;
+}
+
+
+.container10 .product10{
+    width: 300px;
+    background-color: azure;
+    margin: 0;
+}
+
+.container10 #name10{
+    text-align: center;
+    background-color: rgba(11, 100, 71, 0.767);
+    padding: .5em;
+    color:rgba(255, 255, 255, 0.829);
+    font: 700 1em arial;
+    text-shadow: 2px 2px 2px rgba(34, 34, 34, 0.699);
+}
+
+.container10 .product10 .price10{
+    background-color: rgba(112, 128, 144, 0.171);
+    color: #222;
+    padding: 5px;
+}
+
+.container10 .product10 #discription10{
+    color: rgba(34, 34, 34, 0.712);
+    text-align: justify;
+    column-count: 1;
+    text-shadow: none;
+    font: 500 .9em arial;
+    padding: 1em;   
+}
+
+
+/*  CONTAINER 11  */
+
+
+
+section .container11{
+    background-color: cornsilk;
+    width: 300px;
+    height: auto;
+    border-radius: 1rem;
+}
+.slider11{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 1rem;
+}
+.slider11 .carousel11{
+    width: 400%;
+    height: 300px;
+    display: flex;
+}
+.carousel11 .foto11{
+    width: 25%;
+    height: 300px;
+    
+}
+.carousel11 img{
+    width: 300px;
+    height: 300px;
+}
+.carousel11 .first11{
+    transition: all .5s linear;
+}
+.carousel11 input{ display: none;}
+
+.slider11 .navegation-bar11{
+    position: absolute;
+    display: flex;
+    background-color: transparent;
+    bottom: -4%;
+    left: 32%;
+}
+.slider11 .navegation-bar11 .btn-radio11{
+    cursor: pointer;
+    outline: 2px solid rgba(255, 255, 255, 0.637);
+    border-radius: 50%;
+    padding: 6px;
+}
+
+.slider11 .navegation-bar11  .btn-radio11:not(:last-child){
+    margin-right: 1em;
+}
+.slider11 .navegation-bar11 .btn-radio11:hover{
+    background-color: rgba(255, 255, 255, 0.733);
+    outline-offset: 2px;
+}
+
+.carousel11 #radio11-1:checked ~ .first11{
+    left: 0;
+}
+.carousel11 #radio11-2:checked ~ .first11{
+    margin-left: -25%;
+}
+.carousel11 #radio11-3:checked ~ .first11{
+    margin-left: -50%;
+}
+.carousel11 #radio11-4:checked ~ .first11{
+    margin-left: -75%;
+}
+
+.carousel11 .customization-click11{
+    position: absolute;
+    display: flex;
+    background-color: transparent;
+    bottom: -9.2%;
+    left: 32%;
+}
+
+.carousel11 .customization-click11 .custom-btn11{
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 50%;
+    padding: 6px;
+}
+.carousel11 .customization-click11  .custom-btn11:not(:last-child){
+    margin-right: 1em;
+}
+
+.slider11 .carousel11 #radio11-1:checked ~ .customization-click11 #custom-btn11-1{
+    background-color: #fff;
+}
+
+.slider11 .carousel11 #radio11-2:checked ~ .customization-click11 #custom-btn11-2{
+    background-color: #fff;
+}
+.slider11 .carousel11 #radio11-3:checked ~ .customization-click11 #custom-btn11-3{
+    background-color: #fff;
+}
+
+.slider11 .carousel11 #radio11-4:checked ~ .customization-click11 #custom-btn11-4{
+    background-color: #fff;
+}
+
+
+.container11 .product11{
+    width: 300px;
+    background-color: azure;
+    margin: 0;
+}
+
+.container11 #name11{
+    text-align: center;
+    background-color: rgba(11, 100, 71, 0.767);
+    padding: .5em;
+    color:rgba(255, 255, 255, 0.829);
+    font: 700 1em arial;
+    text-shadow: 2px 2px 2px rgba(34, 34, 34, 0.699);
+}
+
+.container11 .product11 .price11{
+    background-color: rgba(112, 128, 144, 0.171);
+    color: #222;
+    padding: 5px;
+}
+
+.container11 .product11 #discription11{
+    color: rgba(34, 34, 34, 0.712);
+    text-align: justify;
+    column-count: 1;
+    text-shadow: none;
+    font: 500 .9em arial;
+    padding: 1em;   
+}
+
+
+
+
+/*  CONTAINER 12  */
+
+
+
+section .container12{
+    background-color: cornsilk;
+    width: 300px;
+    height: auto;
+    border-radius: 1rem;
+  
+}
+.slider12{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 1rem;
+}
+.slider12 .carousel12{
+    width: 400%;
+    height: 300px;
+    display: flex;
+}
+.carousel12 .foto12{
+    width: 25%;
+    height: 300px;
+    
+}
+.carousel12 img{
+    width: 300px;
+    height: 300px;
+}
+.carousel12 .first12{
+    transition: all .5s linear;
+}
+.carousel12 input{ display: none;}
+
+.slider12 .navegation-bar12{
+    position: absolute;
+    display: flex;
+    background-color: transparent;
+    bottom: -4%;
+    left: 32%;
+}
+.slider12 .navegation-bar12 .btn-radio12{
+    cursor: pointer;
+    outline: 2px solid rgba(255, 255, 255, 0.637);
+    border-radius: 50%;
+    padding: 6px;
+}
+
+.slider12 .navegation-bar12  .btn-radio12:not(:last-child){
+    margin-right: 1em;
+}
+.slider12 .navegation-bar12 .btn-radio12:hover{
+    background-color: rgba(255, 255, 255, 0.733);
+    outline-offset: 2px;
+}
+
+.carousel12 #radio12-1:checked ~ .first12{
+    left: 0;
+}
+.carousel12 #radio12-2:checked ~ .first12{
+    margin-left: -25%;
+}
+.carousel12 #radio12-3:checked ~ .first12{
+    margin-left: -50%;
+}
+.carousel12 #radio12-4:checked ~ .first12{
+    margin-left: -75%;
+}
+
+.carousel12 .customization-click12{
+    position: absolute;
+    display: flex;
+    background-color: transparent;
+    bottom: -9.2%;
+    left: 32%;
+}
+
+.carousel12 .customization-click12 .custom-btn12{
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 50%;
+    padding: 6px;
+}
+.carousel12 .customization-click12  .custom-btn12:not(:last-child){
+    margin-right: 1em;
+}
+
+.slider12 .carousel12 #radio12-1:checked ~ .customization-click12 #custom-btn12-1{
+    background-color: #fff;
+}
+
+.slider12 .carousel12 #radio12-2:checked ~ .customization-click12 #custom-btn12-2{
+    background-color: #fff;
+}
+.slider12 .carousel12 #radio12-3:checked ~ .customization-click12 #custom-btn12-3{
+    background-color: #fff;
+}
+
+.slider12 .carousel12 #radio12-4:checked ~ .customization-click12 #custom-btn12-4{
+    background-color: #fff;
+}
+
+
+.container12 .product12{
+    width: 300px;
+    background-color: azure;
+    margin: 0;
+}
+
+.container12 #name12{
+    text-align: center;
+    background-color: rgba(11, 100, 71, 0.767);
+    padding: .5em;
+    color:rgba(255, 255, 255, 0.829);
+    font: 700 1em arial;
+    text-shadow: 2px 2px 2px rgba(34, 34, 34, 0.699);
+}
+
+.container12 .product12 .price12{
+    background-color: rgba(112, 128, 144, 0.171);
+    color: #222;
+    padding: 5px;
+}
+
+.container12 .product12 #discription12{
+    color: rgba(34, 34, 34, 0.712);
+    text-align: justify;
+    column-count: 1;
+    text-shadow: none;
+    font: 500 .9em arial;
+    padding: 1em;   
+}

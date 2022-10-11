@@ -1,0 +1,115 @@
+
+/*  PAGE 1  */
+
+@media screen and (max-width: 1200px) {
+    main article{
+       column-count: 2;
+    }
+    section p{
+       columns: 2;
+    }
+    aside p{
+        column-count: 2;
+    }
+}
+
+
+@media screen and (max-width: 900px) {
+    main article{
+       column-count: 1;
+    }
+    section p{
+       columns: 1;
+    }
+    aside p{
+        column-count: 1;
+    }
+}
+
+
+
+
+@media screen and ( max-width:600px) {
+    #burguer{
+        display: block;
+    }
+     header h1{
+        font-size: 1.8em;
+    }
+
+    nav{
+        margin-top: 0;
+        width: 300px;
+        left: -300px;
+        height: 100vh;
+        flex-direction: column;
+        z-index: 1;
+        position: absolute;
+        transition: all .7s linear;
+    }
+
+    nav ul{
+        display: block;
+    }
+
+    nav ul li{
+        border-bottom: 1px solid rgba(255, 255, 255, 0.233);
+    }
+
+    nav ul li a{
+        padding: 2rem;
+    }
+
+    main article h1{
+        font-size: 1.3em;
+    }
+
+    main article p{
+        font-size: 1em;
+    }
+
+    section h2{
+        font-size: 1.4em;
+    }
+
+    section h3{
+        font-size: 1.4em;
+    }
+
+    section p{
+        font-size: 1em;
+    }
+
+    aside p{
+        font-size: 1em;
+    }
+
+    footer #txt{
+        font-size: .8em;
+    }
+
+    #video iframe{
+        height: 40vh;
+    }
+
+
+}
+
+
+
+
+/* PAGE 4 */
+
+
+@media screen and (max-width: 650px) {
+    
+ /* DESKTOP DISPLAY NONE */   
+main aside{
+    display: none;    
+}
+
+main #mobile{
+    visibility: visible;
+}
+
+}
